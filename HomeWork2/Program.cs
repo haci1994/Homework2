@@ -181,3 +181,31 @@
 //Console.WriteLine($"Cut ededlerin cemi: {sum}");
 
 //Console.WriteLine("---------------------");
+
+////6. Massivin tərsinə dövr etməklə yeni massiv yaradın.
+
+//Console.WriteLine("TERS MASSIVDEN MASSIV YARADAN PROQRAM");
+
+//Console.Write("Ilk massivin element sayini daxil edin: ");
+//int n = int.Parse(Console.ReadLine());
+//int[] mass = new int[n];
+//int[] reversedMass = new int[n];
+
+//for  (int i = 0; i < n; i++)
+//{
+//    Console.Write($"{i + 1} sayli elementi daxil edin: ");
+//    int a = int.Parse(Console.ReadLine());
+//    mass[i] = a;
+//}
+
+//for  (int i = 0; i<reversedMass.Length; i++)
+//{
+//    reversedMass[i] = mass[reversedMass.Length - i-1];
+//}
+
+//Console.Write($"Çevrilmiş massiv: ");
+
+//for (int i = 0;i < n; i++)
+//{
+//    Console.Write($"{reversedMass[i]}, ");
+//}
