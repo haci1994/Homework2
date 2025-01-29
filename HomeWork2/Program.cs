@@ -58,5 +58,24 @@
 
 //Console.WriteLine($"Massivinizin ortalamasi = {sum/n}");
 
+////2.1 Massiv üsulu
+
+//Console.WriteLine("MASSIVIN ELEMENTLERI ARASINDA ORTALAMANI TAPAN PROQRAM");
+
+//Console.Write("Massiv neche elementden ibaret olacaq?");
+//int n = int.Parse(Console.ReadLine());
+//double sum = 0;
+//int[] mass = new int[n];
+
+//for (int i = 0; i < n; i++)
+//{
+//    Console.Write($"{i + 1}. ededi daxil edin:");
+//    int a = int.Parse(Console.ReadLine());
+//    sum += a;
+//    mass[i] = a;
+//};
+
+//Console.WriteLine($"Daxil edilen ededlerin ededi ortasi: {sum / n}");
+
 //Console.WriteLine("---------------------");
 
