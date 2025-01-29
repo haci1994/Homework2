@@ -209,3 +209,49 @@
 //{
 //    Console.Write($"{reversedMass[i]}, ");
 //}
+
+//7. Massivdəki ən böyük iki ədədi tapın.
+
+//Console.WriteLine("MASSIVDEKI IKI EN BOYUK EDEDI TAPAN PROQRAM!");
+
+//Console.Write("Massiv neche elementden ibaret olacaq? ");
+//int n = int.Parse(Console.ReadLine());
+//int[] mass = new int[n];
+
+//int m1 = 0;
+//int m2 = 0;
+
+//if (n >= 2) {
+//    for (int i = 0; i < n; i++)
+//    {
+//        Console.Write($"{i + 1}. eded: ");
+//        int a = int.Parse(Console.ReadLine());
+//        mass[i] = a;
+//    }
+
+//    for (int i = 0; i<n; i++)
+//    {
+//        if (mass[i] > m1)
+//        {
+//            m1 = mass[i];
+//        }
+//    }
+
+//    for (int i = 0;i<n; i++)
+//    {
+//        if (mass[i] != m1 && mass[i]>m2) {
+//            m2 = mass[i];
+//        } else
+//        {
+//            m2 = m1;
+//        }
+//    }
+    
+//    Console.WriteLine($"En boyuk birinci eded {m1}, en boyuk ikinci eded {m2}.");
+
+//} else
+//{
+//    Console.WriteLine("Element sayi en azi 2 olmalidir!");
+//}
+
+//Console.WriteLine("---------------------");
