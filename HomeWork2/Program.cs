@@ -79,3 +79,34 @@
 
 //Console.WriteLine("---------------------");
 
+////3. Massivdə müəyyən bir ədədin olub olmadığını yoxlayın.
+
+//Console.WriteLine("MASSIVDE VERILEN ELEMENTIN OLUB OLMAMASINI YOXLAYAN PROQRAM");
+
+//int[] mass = new int[6];
+
+//mass[0] = 1;
+//mass[1] = 2;
+//mass[2] = 3;
+//mass[3] = 5;
+//mass[4] = 6;
+//mass[5] = 7;
+
+//Console.Write("Yoxlamaq istediniz ededi daxil edin: ");
+//int a = int.Parse(Console.ReadLine());
+
+//for (int i = 0; i < mass.Length; i++)
+//{
+//    if (mass[i] == a)
+//    {
+//        Console.WriteLine($"{a} massivde var!");
+//        break;
+//    }
+//    else
+//    {
+//        Console.WriteLine($"{a} massivde yoxdur!");
+//        break;
+//    }
+//}
+
+//Console.WriteLine("---------------------");
