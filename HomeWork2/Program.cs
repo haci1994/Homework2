@@ -17,6 +17,28 @@
 
 //Console.WriteLine($"Massive daxil etdiyiniz ededlerin cemi = {sum}");
 
+
+////1.1 Massiv üsulu
+
+//Console.Write("Massiviniz neche elementden ibaretdir? ");
+//int n = int.Parse(Console.ReadLine());
+//int sum = 0;
+//int[] nums = new int[n];
+
+//for (int i = 0; i < n; i++)
+//{
+//    Console.Write($"Eded {i + 1}:");
+//    int a = int.Parse(Console.ReadLine());
+//    nums[i] = a;
+//};
+
+//for (int i = 0;i < n; i++)
+//{
+//    sum += nums[i];
+//};
+
+//Console.WriteLine($"Massive daxil etdiyiniz ededlerin cemi");
+
 //Console.WriteLine("---------------------");
 
 //2.Massivin elementləri arasında ortalamasını tapın.
