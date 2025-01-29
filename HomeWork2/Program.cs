@@ -110,3 +110,44 @@
 //}
 
 //Console.WriteLine("---------------------");
+
+////4. Massivdəki ən kiçik və ən böyük ədədləri tapın.
+
+//Console.WriteLine("MASSIVDE EN BOYUK VE EN KICIK EDEDI TAPAN PROQRAM");
+
+//Console.WriteLine("Massivin element sayini daxil edin (en azi iki element olmalidir): ");
+//int n = int.Parse(Console.ReadLine());
+
+//int[] mass = new int[n];
+
+//if (n < 2)
+//{
+//    Console.WriteLine("Massiv elementinin sayi 2-den az ola bilmez!");
+//} else
+//{
+//    for (int i = 0; i < n; i++)
+//    {
+//        Console.Write($"{i+1}. ededi daxil edin: ");
+//        int a = int.Parse(Console.ReadLine());
+//        mass[i] = a;
+//    }
+
+//    int min = mass[0];
+//    int max = mass[1];
+
+//    for (int i = 0; i < n; i++)
+//    {
+//        if (mass[i] < min)
+//        {
+//            min = mass[i];
+//        }
+
+//        if (mass[i]>max)
+//        {
+//            max = mass[i];
+//        }
+//    }
+
+//    Console.WriteLine($"En boyuk eded {max}, en kicik eded {min}.");
+//}
+
