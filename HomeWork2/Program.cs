@@ -19,5 +19,22 @@
 
 //Console.WriteLine("---------------------");
 
+//2.Massivin elementləri arasında ortalamasını tapın.
 
+//Console.WriteLine("MASSIVIN ELEMENTLERI ARASINDA ORTALAMANI TAPAN PROQRAM");
+
+//Console.Write("Massiviniz neche elementden ibaret olacaq? :");
+//int n = int.Parse(Console.ReadLine());
+//double sum = 0;
+
+//for (int i = 0; i < n; i++)
+//{
+//    Console.Write($"{n}. eded:");
+//    int a = int.Parse(Console.ReadLine());
+//    sum += a;
+//};
+
+//Console.WriteLine($"Massivinizin ortalamasi = {sum/n}");
+
+//Console.WriteLine("---------------------");
 
