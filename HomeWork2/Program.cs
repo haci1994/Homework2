@@ -151,3 +151,33 @@
 //    Console.WriteLine($"En boyuk eded {max}, en kicik eded {min}.");
 //}
 
+//Console.WriteLine("---------------------");
+
+////5. Massivdəki cüt ədədlərin cəmini tapın.
+
+//Console.WriteLine("MASSIVDE CUT EDEDLERIN CEMINI TAPAN PROQRAM");
+
+//Console.Write("Massiv neche elementden ibaret olacaq? ");
+//int n = int.Parse(Console.ReadLine());
+
+//int[] mass = new int[n];
+//int sum = 0;
+
+//for (int i = 0; i < n; i++)
+//{
+//    Console.Write($"{i + 1}. elementi daxil edin.");
+//    int a = int.Parse(Console.ReadLine());
+//    mass[i] = a;
+//}
+
+//for (int i = 0;i < n; i++)
+//{
+//    if (mass[i]%2 == 0)
+//    {
+//        sum += mass[i];
+//    }
+//}
+
+//Console.WriteLine($"Cut ededlerin cemi: {sum}");
+
+//Console.WriteLine("---------------------");
