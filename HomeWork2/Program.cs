@@ -313,7 +313,7 @@
 //{
 
 //    age[i] = int.Parse(Console.ReadLine());
-    
+
 //}
 //Console.WriteLine($"Dogum gunu: {age[0]}/{age[1]}/{age[2]}");
 
@@ -336,3 +336,63 @@
 
 //Console.WriteLine("---------------------");
 
+///*10. Daxil edilmiş parçanın  uzunluğuna verilmiş vahidə çevirin (d- dm, k
+//    -km, M - m, m - mm,  s - sm)  uyğun olaraq istənilən vahidə çevirən proqram yazın.
+//    Giriş:
+//    50 k M
+//    Çıxış:
+//    50000 metr*/
+
+
+//Console.WriteLine("Uzunuluq vahidleri arasinda cevirme proqrami.");
+
+//Console.Write("Parcanin uzunlugunu daxil edin: ");
+//double a = double.Parse(Console.ReadLine());
+
+//Console.WriteLine("Parca hansi vahiddedir? (dm, k, M, mm, s)  ");
+//string l1 = Console.ReadLine();
+
+//Console.WriteLine("Hansi vahide cevirmek isteyirsen? (dm, k, M, mm, s)  ");
+//string l2 = Console.ReadLine();
+
+//switch (l1)
+//{
+//    case "mm":
+//        a /= 1000;
+//        break;
+//    case "s":
+//        a /= 100;
+//        break;
+//    case "d":
+//        a /= 10;
+//        break;
+//    case "m":
+//        a *= 1;
+//        break;
+//    case "k":
+//        a *= 1000;
+//        break;
+    
+//}
+
+//switch (l2)
+//{
+//    case "mm":
+//        a *= 1000;
+//        break;
+//    case "s":
+//        a *= 100;
+//        break;
+//    case "d":
+//        a *= 10;
+//        break;
+//    case "m":
+//        a *= 1;
+//        break;
+//    case "k":
+//        a *= 1000;
+//        break;
+    
+//}
+
+//Console.WriteLine($"Cevirmenin neticesi: {a}");
