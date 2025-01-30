@@ -299,3 +299,40 @@
 
 //Console.WriteLine(" ");
 //Console.WriteLine("---------------------");
+
+////9. İnsanın anadan olduğu il,ay,gün  və bu gün ki tarixverilmişdi. İnsanın yaşını hesablayanproqramı yazın.
+////Giriş: 15 5 1990 30 1 2016 Çıxış: 25 yash
+
+//Console.WriteLine("Insanin yashini hesablayan proqram.");
+
+//int[] age = new int[3];
+//int[] today = new int[3];
+
+//Console.WriteLine("Muvafiq olaraq doguldugu gun - ay - ili daxil edin.");
+//for (int i = 0; i < 3; i++)
+//{
+
+//    age[i] = int.Parse(Console.ReadLine());
+    
+//}
+//Console.WriteLine($"Dogum gunu: {age[0]}/{age[1]}/{age[2]}");
+
+//Console.WriteLine("Muvafiq olaraq bugunun tarixini gun - ay - ili daxil edin.");
+//for (int i = 0;i < 3;i++)
+//{
+//    today[i] = int.Parse(Console.ReadLine());
+//}
+//Console.WriteLine($"Bu gun: {today[0]}/{today[1]}/{today[2]}");
+
+//int birthDays = age[0] + age[1] * 30 + age[2] * 365;
+//int todayDays  = today[0] + today[1]*30 + today[2]*365;
+//int lifeDays = todayDays - birthDays;
+
+//int realAge = lifeDays / 365;
+
+//Console.WriteLine("---------------------");
+
+//Console.WriteLine($"Sizin {realAge} yashiniz var!");
+
+//Console.WriteLine("---------------------");
+
