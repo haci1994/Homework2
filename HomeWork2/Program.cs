@@ -210,7 +210,7 @@
 //    Console.Write($"{reversedMass[i]}, ");
 //}
 
-//7. Massivdəki ən böyük iki ədədi tapın.
+////7. Massivdəki ən böyük iki ədədi tapın.
 
 //Console.WriteLine("MASSIVDEKI IKI EN BOYUK EDEDI TAPAN PROQRAM!");
 
@@ -218,10 +218,10 @@
 //int n = int.Parse(Console.ReadLine());
 //int[] mass = new int[n];
 
-//int m1 = 0;
-//int m2 = 0;
 
-//if (n >= 2) {
+
+//if (n >= 2)
+//{
 //    for (int i = 0; i < n; i++)
 //    {
 //        Console.Write($"{i + 1}. eded: ");
@@ -229,27 +229,38 @@
 //        mass[i] = a;
 //    }
 
-//    for (int i = 0; i<n; i++)
+//    int m1 = mass[1];
+//    int m2 = mass[0];
+
+//    if (mass[0] > mass[1])
 //    {
-//        if (mass[i] > m1)
-//        {
-//            m1 = mass[i];
-//        }
+//        m1 = mass[0];
+//        m2 = mass[1];
 //    }
 
-//    for (int i = 0;i<n; i++)
+//    if (n==2)
 //    {
-//        if (mass[i] != m1 && mass[i]>m2) {
-//            m2 = mass[i];
-//        } else
+//        Console.WriteLine($"En boyuk birinci eded {m1}, en boyuk ikinci eded {m2}.");
+//    } else
+//    {
+//        for (int i = 0; i < n; i++)
 //        {
-//            m2 = m1;
-//        }
-//    }
-    
-//    Console.WriteLine($"En boyuk birinci eded {m1}, en boyuk ikinci eded {m2}.");
+//            if (mass[i] > m1)
+//            {
+//                m2 = m1;
+//                m1 = mass[i];
+//            }
 
-//} else
+//            else if (mass[i] > m2)
+//            {
+//                m2 = mass[i];
+//            };
+//        }
+
+//        Console.WriteLine($"En boyuk birinci eded {m1}, en boyuk ikinci eded {m2}.");
+//    }    
+//}
+//else
 //{
 //    Console.WriteLine("Element sayi en azi 2 olmalidir!");
 //}
