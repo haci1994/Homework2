@@ -266,3 +266,36 @@
 //}
 
 //Console.WriteLine("---------------------");
+
+////8. Massivin bütün elementlərinin 2 qatını tapın və yeni massiv yaradın.
+
+//Console.WriteLine("Daxile edilen massivin elementlerini 2-e vurub, yeni massiv yaradan proqram.");
+
+//Console.Write("Massiviniz neche elementden ibaret olacaq?");
+//int n = int.Parse(Console.ReadLine());
+
+//int[] mass = new int[n];
+//int[] massxb = new int[n];
+//for (int i = 0; i < n; i++)
+//{
+//    Console.Write($"{i + 1}. elementi daxil edin: ");
+//    int a = int.Parse(Console.ReadLine());
+//    mass[i] = a;
+//};
+
+//Console.WriteLine("Massiv elementlerini necheye vurmaq isteyirsiniz? ");
+//int x = int.Parse(Console.ReadLine());
+
+//for (int i = 0;i < n; i++)
+//{
+//    int b = x * mass[i];
+//    massxb[i] = b;
+//};
+
+//for (int i = 0; i<n ; i++)
+//{
+//    Console.Write($"{massxb[i]}, ");
+//};
+
+//Console.WriteLine(" ");
+//Console.WriteLine("---------------------");
